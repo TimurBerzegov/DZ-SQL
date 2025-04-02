@@ -13,4 +13,4 @@ WHERE STD.Snum = S.Snum AND STD.Dnum = D.Dnum;
 GO
 SELECT DISTINCT STD.Tnum
 FROM STD, S
-WHERE STD.Snum = S.Snum AND S.Status <> 50;
+WHERE STD.Snum = S.Snum AND S.Status > 50;
